@@ -1,5 +1,5 @@
 body{
-    background-color:white;
+    background-color:rgb(141, 124, 124);
 }
 
 *
@@ -8,7 +8,8 @@ body{
 }
 h1
 {
-    text-align:center;
+    position:relative;
+    left:600px;
 }
 #lotteryParent
 {
@@ -29,7 +30,7 @@ h1
     
     
     
-
+    background-color:#14ccba;
     border:solid 1px red;
     width:700px;
     height:200px;
