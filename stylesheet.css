@@ -1,0 +1,85 @@
+body{
+    background-color:white;
+}
+
+*
+{
+    box-sizing:border-box;
+}
+h1
+{
+    text-align:center;
+}
+#lotteryParent
+{
+    position:relative;
+    left:350px;
+
+}
+#lotteryParent
+{
+
+    
+    display:flex;
+    justify-content:center;
+    justify-content:space-evenly;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-content:space-evenly;
+    
+    
+    
+
+    border:solid 1px red;
+    width:700px;
+    height:200px;
+    
+}
+.gi
+{
+    border:solid 1px gray;
+    width:120px;
+    height:40px;
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding-top:10px;
+    
+}
+#pickNumberButton
+{
+    position:relative;
+    
+    left:650;
+    top:300px;
+    position:fixed;
+    cursor:pointer;
+    border-radius:5px;
+    background-color:orange;
+    color:white;
+    height:50px;
+    width:140px;
+    
+    
+}
+#randomNumber
+{
+    font-size:20px;
+    position:relative;
+    
+    left:600px;
+    top:10px;
+    
+
+}
+.winBox
+{
+    background-color:green;
+    color:white;
+}
+.highlatedBox
+{
+    border:solid 5px red;
+}
+
+
